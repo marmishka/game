@@ -1,0 +1,55 @@
+.landing-page {  
+  
+
+
+  .rules {
+    position: relative;
+    background-image: url('./images/sneg.jpg');  
+    background-size: 100% auto;  
+    background-repeat: no-repeat;
+    height: 60vw;
+    .slides { 
+      position: absolute;
+      top: 10vw;
+      left: 10vw;
+      width: 50vw;
+      height: auto;
+
+      
+
+      h5 {
+        font-family: 'Mirabella',Arial, Helvetica, sans-serif;
+        font-size: 1.5vw;
+        color: black;
+        background: white;
+        opacity: 0.6;
+        padding: 10px;
+        border-radius: 20px;
+      }
+
+      p {
+        font-family: 'Mirabella',Arial, Helvetica, sans-serif;
+        font-size: 1.3vw;
+        color: black;
+        background: white;
+        opacity: 0.8;
+      }
+
+      img {
+        width: 50vw;
+      }
+      
+
+    }
+    .btn {
+      position: absolute;
+      top: 40vw;
+      left: 40vw;
+      font-size: 2vw;
+      font-family: 'Mirabella', Arial, Helvetica, sans-serif;
+      box-shadow: 2px 2px 15px gray;
+    }
+    
+  }
+  
+}

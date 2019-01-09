@@ -1,0 +1,33 @@
+.hero {  
+  position: relative;
+  background-image: url('./sany.jpg');
+  background-size: 100% auto;  
+  background-repeat: no-repeat;
+
+  h1 {
+    font-family: 'Mirabella', Arial, Helvetica, sans-serif;    
+    text-align: center;
+    padding: 5px 0;
+    font-size: 3vw;
+    color: rgb(255, 255, 255);    
+    text-shadow: 4px 4px 8px rgb(0, 0, 0);
+  }
+
+  .text {
+    fill: white;    
+    font-family: 'Mirabella', Arial, Helvetica, sans-serif;    
+    text-align: center;
+    padding: 5px 0;
+    font-size: 2vw;
+    color: rgb(179, 199, 188);    
+    text-shadow: 2px 2px 20px rgb(0, 0, 0);
+  }
+  .btn {
+    position: absolute;
+    top: calc(50% + 50px);
+    left: calc(40%);
+    font-size: 2vw;
+    font-family: 'Mirabella', Arial, Helvetica, sans-serif;
+    box-shadow: 2px 2px 15px gray;
+  }
+} 

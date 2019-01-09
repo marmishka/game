@@ -1,0 +1,31 @@
+.about {  
+  position: relative;
+  padding-top: 50px;
+  display: block;
+  background-image: url('./footprints-fon.jpg');  
+  background-size: 100% auto;  
+  background-repeat: no-repeat;
+  img {
+    display: inline-block;
+    filter: drop-shadow(15px 15px 15px #222);
+    width: 35vw;
+  }
+  .text {
+    display: inline-block;
+
+    h2 {
+      font-family: 'Mirabella', Arial, Helvetica, sans-serif;   
+      font-size: 2vw; 
+      text-align: center;
+      color: rgb(41, 41, 46);
+    }
+  }
+  .btn {
+    position: absolute;
+    top: calc(50% + 50px);
+    left: calc(50%);
+    font-size: 2vw;
+    font-family: 'Mirabella', Arial, Helvetica, sans-serif;
+    box-shadow: 2px 2px 15px gray;
+  }
+}
